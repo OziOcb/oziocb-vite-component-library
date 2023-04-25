@@ -1,7 +1,7 @@
 {
   "name": "oziocb-vite-component-library",
   "private": false,
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "files": ["dist"],
   "main": "./dist/oziocb-vite-component-library.umd.cjs",
@@ -11,7 +11,7 @@
       "import": "./dist/oziocb-vite-component-library.js",
       "require": "./dist/oziocb-vite-component-library.umd.cjs"
     },
-    "./styles.css": {
+    "./styles": {
       "import": "./dist/index.css",
       "require": "./dist/index.css"
     }
