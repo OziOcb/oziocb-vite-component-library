@@ -1,8 +1,17 @@
 {
   "name": "oziocb-vite-component-library",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
+  "files": ["dist"],
+  "main": "./dist/oziocb-vite-component-library.umd.cjs",
+  "module": "./dist/oziocb-vite-component-library.js",
+  "exports": {
+    ".": {
+      "import": "./dist/oziocb-vite-component-library.js",
+      "require": "./dist/oziocb-vite-component-library.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
