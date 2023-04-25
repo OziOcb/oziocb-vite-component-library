@@ -10,6 +10,10 @@
     ".": {
       "import": "./dist/oziocb-vite-component-library.js",
       "require": "./dist/oziocb-vite-component-library.umd.cjs"
+    },
+    "./dist/index.css": {
+      "import": "./dist/index.css",
+      "require": "./dist/index.css"
     }
   },
   "scripts": {
