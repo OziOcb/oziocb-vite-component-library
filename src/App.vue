@@ -3,10 +3,12 @@
 
   <MyButton primary>button primary</MyButton>
   <MyButton>button default</MyButton>
+
+  <MyCheckbox />
 </template>
 
 <script setup lang="ts">
-import MyButton from "@/components/MyButton.vue";
+import { MyButton, MyCheckbox } from "./components/";
 </script>
 
 <style scoped>

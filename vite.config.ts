@@ -6,8 +6,9 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   build: {
+    cssCodeSplit: true,
     lib: {
-      entry: resolve(__dirname, 'src/components/components.ts'),
+      entry: resolve(__dirname, 'src/components/index.ts'),
       name: "OziocbViteComponentLibrary",
     },
     rollupOptions: {
