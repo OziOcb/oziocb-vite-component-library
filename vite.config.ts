@@ -4,19 +4,13 @@ import vue from '@vitejs/plugin-vue'
 // import typescript from '@rollup/plugin-typescript'
 import dts from 'vite-plugin-dts'
 
-// TODO: ENDED HERE!
-// TODO: ENDED HERE!
-// TODO: ENDED HERE!
-// TODO: ENDED HERE 1. Generate .d.ts files and pass them to npm!
-// TODO: ENDED HERE 2. Add Storybook!
-// TODO: ENDED HERE!
-// TODO: ENDED HERE!
-
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     vue(),
-    dts(),
+    dts({
+      insertTypesEntry: true
+    }),
     // typescript({
     //   // include: ["./src/components/*.vue"],
     //   exclude: ["vite.config.ts"],
