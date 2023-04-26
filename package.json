@@ -1,7 +1,7 @@
 {
   "name": "oziocb-vite-component-library",
   "private": false,
-  "version": "0.0.11",
+  "version": "0.0.12",
   "type": "module",
   "files": ["dist"],
   "main": "./dist/oziocb-vite-component-library.umd.cjs",

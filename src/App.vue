@@ -4,7 +4,8 @@
   <MyButton primary>button primary</MyButton>
   <MyButton>button default</MyButton>
 
-  <MyCheckbox />
+  <MyCheckbox :is-checked="true" />
+  <MyCheckbox :is-checked="false" />
 </template>
 
 <script setup lang="ts">
