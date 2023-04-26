@@ -1,25 +1,15 @@
 import { resolve } from 'path'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-// import typescript from '@rollup/plugin-typescript'
 import dts from 'vite-plugin-dts'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     vue(),
-    dts({
-      insertTypesEntry: true
+    dts({ // Generate .d.ts files from .vue files
+      insertTypesEntry: true // Generate main.d.ts file in the root folder
     }),
-    // typescript({
-    //   // include: ["./src/components/*.vue"],
-    //   exclude: ["vite.config.ts"],
-    //   compilerOptions: {
-    //     outDir: "dist/elo",
-    //     declaration: true,
-    //     declarationMap: true,
-    //   }
-    // })
   ],
   build: {
     cssCodeSplit: true,
