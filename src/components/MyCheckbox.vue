@@ -1,6 +1,6 @@
 <template>
   <input
-    class="my-checkbox"
+    :class="[`my-checkbox`, { 'my-checkbox--checked': isChecked }]"
     type="checkbox"
     name="check"
     id="check"
@@ -18,5 +18,8 @@ defineProps<{
 .my-checkbox {
   width: 40px;
   height: 40px;
+}
+.my-checkbox.my-checkbox--checked {
+  opacity: 0.3;
 }
 </style>
