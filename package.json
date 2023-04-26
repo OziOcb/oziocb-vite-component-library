@@ -1,21 +1,21 @@
 {
   "name": "oziocb-vite-component-library",
   "private": false,
-  "version": "0.0.8",
+  "version": "0.0.9",
   "type": "module",
   "files": ["dist"],
   "main": "./dist/oziocb-vite-component-library.umd.cjs",
   "module": "./dist/oziocb-vite-component-library.js",
-  "types": "./dist/components/index.d.ts",
+  "types": "./dist/main.d.ts",
   "exports": {
     ".": {
       "import": {
         "default": "./dist/oziocb-vite-component-library.js",
-        "types": "./dist/components/index.d.ts"
+        "types": "./dist/main.d.ts"
       },
       "require": {
         "default": "./dist/oziocb-vite-component-library.umd.cjs",
-        "types": "./dist/components/index.d.ts"
+        "types": "./dist/main.d.ts"
       }
     },
     "./styles": {
