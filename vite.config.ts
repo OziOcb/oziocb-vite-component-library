@@ -12,7 +12,6 @@ export default defineConfig({
     }),
   ],
   build: {
-    cssCodeSplit: true,
     lib: {
       entry: resolve(__dirname, "src/components/index.ts"),
       name: "OziocbViteComponentLibrary",
