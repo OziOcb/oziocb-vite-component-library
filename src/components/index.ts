@@ -4,7 +4,7 @@ import MyCheckbox from './MyCheckbox.vue';
 export { MyButton, MyCheckbox }
 
 // TODO: ENDED HERE!
-// TODO: ENDED HERE!
+// TODO: ENDED HERE Ustaw to https://zellwk.com/blog/publish-to-npm/!
 // TODO: ENDED HERE!
 // TODO: ENDED HERE Stworz komponent ktory
 // TODO: ENDED HERE!  1. bedzie przyjmowal jakis objekt jako props
